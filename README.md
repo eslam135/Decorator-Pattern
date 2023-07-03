@@ -31,4 +31,49 @@ Create an object of the concrete component class, and then wrap it with one or m
 ### <span style="color:lightgrey"> 7- Call the methods of the decorated object:
 Call the methods of the decorated object to execute the added behavior. In the pizza example, we could call the "getDescription()" and "getPrice()" methods of the decorated object to get the final description and price of the pizza with all the added toppings.
 
+                  +-----------------+
+                  |      Pizza      |
+                  +-----------------+
+                  |getDescription()|
+                  |    getPrice()   |
+                  +-----------------+
+                           /\
+                           |
+                           |
+                  +-----------------+
+                  |   PizzaDecorator|
+                  +-----------------+
+                  |     pizza       |
+                  |getDescription()|
+                  |    getPrice()   |
+                  +-----------------+
+                           /\
+                           |
+                           |
+           +-----------------------------+
+           |     MargheritaPizza        |
+           +-----------------------------+
+           |getDescription()           |
+           |    getPrice()              |
+           +-----------------------------+
+                           /\
+                           |
+                           |
+                  +-----------------+
+                  | PepperoniDecorator|
+                  +-----------------+
+                  |     pizza       |
+                  |getDescription()|
+                  |    getPrice()   |
+                  +-----------------+
+                           /\
+                           |
+                           |
+                  +-----------------+
+                  | MushroomDecorator|
+                  +-----------------+
+                  |     pizza       |
+                  |getDescription()|
+                  |    getPrice()   |
+                  +-----------------+
 
