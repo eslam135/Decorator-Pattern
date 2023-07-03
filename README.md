@@ -31,4 +31,4 @@ Create an object of the concrete component class, and then wrap it with one or m
 ### <span style="color:lightgrey"> 7- Call the methods of the decorated object:
 Call the methods of the decorated object to execute the added behavior. In the pizza example, we could call the "getDescription()" and "getPrice()" methods of the decorated object to get the final description and price of the pizza with all the added toppings.
 
-![Decorator Pattern UML diagram](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/eslam135/Decorator-Pattern/main/uml-diagram.puml)
+![Decorator Pattern UML diagram](https://www.plantuml.com/plantuml/svg/SoWkIImgAStDuNBAJrBGjLDmpCbCJbMgKj5ZCj5ZDmpCpEJb9G0tJYp9BpKfDIWfDIWfDIWrIgt9BpKfDIWfDIWfDIWfDIWfDIWfDIWfDIWfDIWfDIWfDIWfDIWfDIWfDIWfDIWfDIWfDIWfDIWfDIWfDIWfDIWfDIWfDIWfDIWfDIWfDIWfDIWfDIWfDIWfDIWfDIWfDIWfDIWfDIWfDIWfDIWfDIWfDIWfDIWfDIWrBZAvhA2J5G00)
