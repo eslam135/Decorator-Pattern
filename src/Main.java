@@ -3,7 +3,7 @@ public class Main {
         Pizza pizza = new MargheritaPizza();
         pizza = new PepperoniDecorator(pizza);
         pizza = new MushroomDecorator(pizza);
-        System.out.println("Description: " + pizza.getDescription());
-        System.out.println("Price: $" + pizza.getPrice());
+        System.out.println("Description: " + pizza.getDescription()); //Output : Margherita pizza, pepperoni, mushrooms
+        System.out.println("Price: $" + pizza.getPrice()); // Output: 11.97
     }
 }
