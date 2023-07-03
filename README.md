@@ -51,26 +51,26 @@ Call the methods of the decorated object to execute the added behavior. In the p
                            |
                            |
            +-----------------------------+
-           |     MargheritaPizza        |
+           |      MargheritaPizza        |
            +-----------------------------+
-           |getDescription()           |
-           |    getPrice()              |
+           |      getDescription()       |
+           |         getPrice()          |
            +-----------------------------+
                            /\
                            |
                            |
                   +-----------------+
-                  | PepperoniDecorator|
+                  |PepperoniDecorator|
                   +-----------------+
                   |     pizza       |
-                  |getDescription()|
+                  |getDescription() |
                   |    getPrice()   |
                   +-----------------+
                            /\
                            |
                            |
                   +-----------------+
-                  | MushroomDecorator|
+                  |MushroomDecorator|
                   +-----------------+
                   |     pizza       |
                   |getDescription()|
