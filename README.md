@@ -77,3 +77,5 @@ Call the methods of the decorated object to execute the added behavior. In the p
                   |    getPrice()   |
                   +-----------------+
 
+# Next Patter:
+https://github.com/eslam135/Factory-Pattern
